@@ -2,6 +2,7 @@
   (lib (name keyboard_parts)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/keyboard_parts.pretty/keyboard_parts.lib)(options "")(descr ""))
   (lib (name gsg-symbols)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/gsg-symbols.lib)(options "")(descr ""))
   (lib (name MCU_STM32)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/keyboard_parts.pretty/MCU_STM32.lib)(options "")(descr ""))
+  (lib (name SW-Texas)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/SW-Texas.lib)(options "")(descr ""))
   (lib (name is31fl3731)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/keyboard_parts.pretty/is31fl3731.lib)(options "")(descr ""))
   (lib (name mkl27z256vfm4)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/keyboard_parts.pretty/mkl27z256vfm4.lib)(options "")(descr ""))
   (lib (name switches)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/switches.lib)(options "")(descr ""))
