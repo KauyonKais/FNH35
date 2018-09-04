@@ -1,42 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:keyboard_parts
-LIBS:MCU_STM32
-LIBS:is31fl3731
-LIBS:mkl27z256vfm4
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:FNH35_rev1-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -50,6 +14,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L is31fl3731:IS31FL3731 U?
+U 1 1 5B8B1B89
+P 7200 4100
+F 0 "U?" H 6750 4900 50  0000 L CNN
+F 1 "IS31FL3731" H 7250 5000 50  0000 L CNN
+F 2 "" H 7200 4100 50  0000 C CNN
+F 3 "" H 7200 4100 50  0000 C CNN
+	1    7200 4100
+	1    0    0    -1  
+$EndComp
 $Sheet
 S 5550 6000 950  1100
 U 5B8A7D40
@@ -65,21 +40,16 @@ F8 "row1" I L 5550 6800 60
 F9 "row2" I L 5550 6900 60 
 F10 "row3" I L 5550 7000 60 
 $EndSheet
-$Comp
-L IS31FL3731 U?
-U 1 1 5B8B1B89
-P 7200 4100
-F 0 "U?" H 6750 4900 50  0000 L CNN
-F 1 "IS31FL3731" H 7250 5000 50  0000 L CNN
-F 2 "" H 7200 4100 50  0000 C CNN
-F 3 "" H 7200 4100 50  0000 C CNN
-	1    7200 4100
-	1    0    0    -1  
-$EndComp
 $Sheet
-S 8450 3050 1150 2750
+S 6700 5850 650  550 
 U 5B8B1EF6
 F0 "LEDMatrix" 60
 F1 "LEDMatrix.sch" 60
+F2 "SDI" I L 6700 5950 50 
+F3 "CKI" I L 6700 6050 50 
+F4 "VCC" I L 6700 6200 50 
+F5 "GND" I L 6700 6300 50 
+F6 "SDO" I R 7350 5950 50 
+F7 "CKO" I R 7350 6050 50 
 $EndSheet
 $EndSCHEMATC

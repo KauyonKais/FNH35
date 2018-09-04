@@ -1,10 +1,46 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:keyboard_parts
+LIBS:MCU_STM32
+LIBS:is31fl3731
+LIBS:mkl27z256vfm4
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:FNH35_rev1-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -15,7 +51,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keyboard_parts:KEYSW RK40
+L KEYSW RK40
 U 1 1 5B8A7F7B
 P 3950 2350
 F 0 "RK40" H 3900 2350 60  0000 C CNN
@@ -26,7 +62,7 @@ F 3 "" H 3950 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK41
+L KEYSW RK41
 U 1 1 5B8A8072
 P 3950 2900
 F 0 "RK41" H 3900 2900 60  0000 C CNN
@@ -37,7 +73,7 @@ F 3 "" H 3950 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK30
+L KEYSW RK30
 U 1 1 5B8A80EE
 P 4900 2350
 F 0 "RK30" H 4850 2350 60  0000 C CNN
@@ -48,7 +84,7 @@ F 3 "" H 4900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK31
+L KEYSW RK31
 U 1 1 5B8A80F4
 P 4900 2900
 F 0 "RK31" H 4850 2900 60  0000 C CNN
@@ -59,7 +95,7 @@ F 3 "" H 4900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK42
+L KEYSW RK42
 U 1 1 5B8A823C
 P 3950 3450
 F 0 "RK42" H 3900 3450 60  0000 C CNN
@@ -70,7 +106,7 @@ F 3 "" H 3950 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK32
+L KEYSW RK32
 U 1 1 5B8A8242
 P 4900 3450
 F 0 "RK32" H 4850 3450 60  0000 C CNN
@@ -81,7 +117,7 @@ F 3 "" H 4900 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK20
+L KEYSW RK20
 U 1 1 5B8A8446
 P 5850 2350
 F 0 "RK20" H 5800 2350 60  0000 C CNN
@@ -92,7 +128,7 @@ F 3 "" H 5850 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK21
+L KEYSW RK21
 U 1 1 5B8A844C
 P 5850 2900
 F 0 "RK21" H 5800 2900 60  0000 C CNN
@@ -103,7 +139,7 @@ F 3 "" H 5850 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK10
+L KEYSW RK10
 U 1 1 5B8A8452
 P 6800 2350
 F 0 "RK10" H 6750 2350 60  0000 C CNN
@@ -114,7 +150,7 @@ F 3 "" H 6800 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK11
+L KEYSW RK11
 U 1 1 5B8A8458
 P 6800 2900
 F 0 "RK11" H 6750 2900 60  0000 C CNN
@@ -125,7 +161,7 @@ F 3 "" H 6800 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK22
+L KEYSW RK22
 U 1 1 5B8A845E
 P 5850 3450
 F 0 "RK22" H 5800 3450 60  0000 C CNN
@@ -136,7 +172,7 @@ F 3 "" H 5850 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK12
+L KEYSW RK12
 U 1 1 5B8A8464
 P 6800 3450
 F 0 "RK12" H 6750 3450 60  0000 C CNN
@@ -147,7 +183,7 @@ F 3 "" H 6800 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK00
+L KEYSW RK00
 U 1 1 5B8A8FE7
 P 7750 2350
 F 0 "RK00" H 7700 2350 60  0000 C CNN
@@ -158,7 +194,7 @@ F 3 "" H 7750 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK01
+L KEYSW RK01
 U 1 1 5B8A8FED
 P 7750 2900
 F 0 "RK01" H 7700 2900 60  0000 C CNN
@@ -169,7 +205,7 @@ F 3 "" H 7750 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK02
+L KEYSW RK02
 U 1 1 5B8A8FF3
 P 7750 3450
 F 0 "RK02" H 7700 3450 60  0000 C CNN
@@ -180,7 +216,7 @@ F 3 "" H 7750 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK43
+L KEYSW RK43
 U 1 1 5B8A933E
 P 3950 4000
 F 0 "RK43" H 3900 4000 60  0000 C CNN
@@ -191,7 +227,7 @@ F 3 "" H 3950 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK33
+L KEYSW RK33
 U 1 1 5B8A9344
 P 4900 4000
 F 0 "RK33" H 4850 4000 60  0000 C CNN
@@ -202,7 +238,7 @@ F 3 "" H 4900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW RK23
+L KEYSW RK23
 U 1 1 5B8A934A
 P 5850 4000
 F 0 "RK23" H 5800 4000 60  0000 C CNN
@@ -213,7 +249,7 @@ F 3 "" H 5850 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D RD40
+L D RD40
 U 1 1 5B8A9701
 P 3600 2600
 F 0 "RD40" V 3450 2550 60  0000 C CNN
@@ -224,7 +260,7 @@ F 3 "" H 3600 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD30
+L D RD30
 U 1 1 5B8A9858
 P 4550 2600
 F 0 "RD30" V 4400 2550 60  0000 C CNN
@@ -235,7 +271,7 @@ F 3 "" H 4550 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD20
+L D RD20
 U 1 1 5B8A98EC
 P 5500 2600
 F 0 "RD20" V 5350 2550 60  0000 C CNN
@@ -246,7 +282,7 @@ F 3 "" H 5500 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD10
+L D RD10
 U 1 1 5B8A98F2
 P 6450 2600
 F 0 "RD10" V 6300 2550 60  0000 C CNN
@@ -257,7 +293,7 @@ F 3 "" H 6450 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD00
+L D RD00
 U 1 1 5B8A992E
 P 7400 2600
 F 0 "RD00" V 7250 2550 60  0000 C CNN
@@ -268,7 +304,7 @@ F 3 "" H 7400 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD41
+L D RD41
 U 1 1 5B8A9A0B
 P 3600 3150
 F 0 "RD41" V 3450 3100 60  0000 C CNN
@@ -279,7 +315,7 @@ F 3 "" H 3600 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD31
+L D RD31
 U 1 1 5B8A9A11
 P 4550 3150
 F 0 "RD31" V 4400 3100 60  0000 C CNN
@@ -290,7 +326,7 @@ F 3 "" H 4550 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD21
+L D RD21
 U 1 1 5B8A9A17
 P 5500 3150
 F 0 "RD21" V 5350 3100 60  0000 C CNN
@@ -301,7 +337,7 @@ F 3 "" H 5500 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD11
+L D RD11
 U 1 1 5B8A9A1D
 P 6450 3150
 F 0 "RD11" V 6300 3100 60  0000 C CNN
@@ -312,7 +348,7 @@ F 3 "" H 6450 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD01
+L D RD01
 U 1 1 5B8A9A23
 P 7400 3150
 F 0 "RD01" V 7250 3100 60  0000 C CNN
@@ -323,7 +359,7 @@ F 3 "" H 7400 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD43
+L D RD43
 U 1 1 5B8A9B60
 P 3600 4250
 F 0 "RD43" V 3450 4200 60  0000 C CNN
@@ -334,7 +370,7 @@ F 3 "" H 3600 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD33
+L D RD33
 U 1 1 5B8A9B66
 P 4550 4250
 F 0 "RD33" V 4400 4200 60  0000 C CNN
@@ -345,7 +381,7 @@ F 3 "" H 4550 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD23
+L D RD23
 U 1 1 5B8A9B6C
 P 5500 4250
 F 0 "RD23" V 5350 4200 60  0000 C CNN
@@ -356,7 +392,7 @@ F 3 "" H 5500 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD42
+L D RD42
 U 1 1 5B8AA12B
 P 3600 3700
 F 0 "RD42" V 3450 3650 60  0000 C CNN
@@ -367,7 +403,7 @@ F 3 "" H 3600 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD32
+L D RD32
 U 1 1 5B8AA131
 P 4550 3700
 F 0 "RD32" V 4400 3650 60  0000 C CNN
@@ -378,7 +414,7 @@ F 3 "" H 4550 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD22
+L D RD22
 U 1 1 5B8AA137
 P 5500 3700
 F 0 "RD22" V 5350 3650 60  0000 C CNN
@@ -389,7 +425,7 @@ F 3 "" H 5500 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD12
+L D RD12
 U 1 1 5B8AA13D
 P 6450 3700
 F 0 "RD12" V 6300 3650 60  0000 C CNN
@@ -400,7 +436,7 @@ F 3 "" H 6450 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D RD02
+L D RD02
 U 1 1 5B8AA143
 P 7400 3700
 F 0 "RD02" V 7250 3650 60  0000 C CNN
@@ -473,7 +509,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 4300 3600 4350
 Wire Wire Line
-	3250 4350 3600 4350
+	3250 4350 5500 4350
 Wire Wire Line
 	5500 4350 5500 4300
 Wire Wire Line
@@ -482,19 +518,19 @@ Connection ~ 4550 4350
 Wire Wire Line
 	3600 3750 3600 3800
 Wire Wire Line
-	3250 3800 3600 3800
+	3250 3800 7400 3800
 Wire Wire Line
 	7400 3800 7400 3750
 Wire Wire Line
 	3600 3200 3600 3250
 Wire Wire Line
-	3250 3250 3600 3250
+	3250 3250 7400 3250
 Wire Wire Line
 	7400 3250 7400 3200
 Wire Wire Line
 	7400 2700 7400 2650
 Wire Wire Line
-	3250 2700 3600 2700
+	3250 2700 7400 2700
 Wire Wire Line
 	3600 2700 3600 2650
 Wire Wire Line
@@ -527,7 +563,7 @@ Connection ~ 6450 3800
 Wire Wire Line
 	6150 2350 6200 2350
 Wire Wire Line
-	6200 2100 6200 2350
+	6200 2100 6200 4000
 Wire Wire Line
 	6200 4000 6150 4000
 Wire Wire Line
@@ -553,7 +589,7 @@ Connection ~ 7150 2900
 Wire Wire Line
 	5250 4000 5200 4000
 Wire Wire Line
-	5250 2100 5250 2350
+	5250 2100 5250 4000
 Wire Wire Line
 	5250 2350 5200 2350
 Wire Wire Line
@@ -565,7 +601,7 @@ Connection ~ 5250 3450
 Wire Wire Line
 	4300 4000 4250 4000
 Wire Wire Line
-	4300 2100 4300 2350
+	4300 2100 4300 4000
 Wire Wire Line
 	4300 2350 4250 2350
 Wire Wire Line
@@ -602,9 +638,9 @@ Connection ~ 6200 2350
 Connection ~ 7150 2350
 Connection ~ 8100 2350
 Wire Wire Line
-	8100 2100 8100 2350
+	8100 2100 8100 3450
 Wire Wire Line
-	7150 2100 7150 2350
+	7150 2100 7150 3450
 Wire Wire Line
 	5550 4000 5500 4000
 Wire Wire Line
@@ -617,58 +653,4 @@ Wire Wire Line
 	3600 4100 3600 4000
 Wire Wire Line
 	3600 4000 3650 4000
-Wire Wire Line
-	4550 4350 5500 4350
-Wire Wire Line
-	4550 2700 5500 2700
-Wire Wire Line
-	5500 2700 6450 2700
-Wire Wire Line
-	6450 2700 7400 2700
-Wire Wire Line
-	6450 3250 7400 3250
-Wire Wire Line
-	5500 3250 6450 3250
-Wire Wire Line
-	4550 3250 5500 3250
-Wire Wire Line
-	4550 3800 5500 3800
-Wire Wire Line
-	5500 3800 6450 3800
-Wire Wire Line
-	6450 3800 7400 3800
-Wire Wire Line
-	6200 3450 6200 4000
-Wire Wire Line
-	6200 2900 6200 3450
-Wire Wire Line
-	8100 2900 8100 3450
-Wire Wire Line
-	7150 2900 7150 3450
-Wire Wire Line
-	5250 2900 5250 3450
-Wire Wire Line
-	5250 3450 5250 4000
-Wire Wire Line
-	4300 2900 4300 3450
-Wire Wire Line
-	4300 3450 4300 4000
-Wire Wire Line
-	3600 2700 4550 2700
-Wire Wire Line
-	3600 3250 4550 3250
-Wire Wire Line
-	3600 3800 4550 3800
-Wire Wire Line
-	3600 4350 4550 4350
-Wire Wire Line
-	4300 2350 4300 2900
-Wire Wire Line
-	5250 2350 5250 2900
-Wire Wire Line
-	6200 2350 6200 2900
-Wire Wire Line
-	7150 2350 7150 2900
-Wire Wire Line
-	8100 2350 8100 2900
 $EndSCHEMATC
