@@ -1,5 +1,6 @@
 (sym_lib_table
   (lib (name keyboard_parts)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/keyboard_parts.pretty/keyboard_parts.lib)(options "")(descr ""))
+  (lib (name crumpschemes)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/CrumpSchemes/crumpschemes.lib)(options "")(descr ""))
   (lib (name gsg-symbols)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/gsg-symbols.lib)(options "")(descr ""))
   (lib (name MCU_STM32)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/keyboard_parts.pretty/MCU_STM32.lib)(options "")(descr ""))
   (lib (name SW-Texas)(type Legacy)(uri C:/Users/kauyo/Documents/qmk/FNH35/SW-Texas.lib)(options "")(descr ""))
