@@ -141,17 +141,6 @@ F 3 "" H 2950 2550 50  0001 C CNN
 $EndComp
 Connection ~ 2950 2550
 $Comp
-L Device:Polyfuse_Small F1
-U 1 1 5BAA557F
-P 4950 950
-F 0 "F1" V 4745 950 50  0000 C CNN
-F 1 "Polyfuse_Small" V 4836 950 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5000 750 50  0001 L CNN
-F 3 "~" H 4950 950 50  0001 C CNN
-	1    4950 950 
-	0    1    1    0   
-$EndComp
-$Comp
 L regul:LD1117S33TR_SOT223 U2
 U 1 1 5BAA575C
 P 6150 950
@@ -220,41 +209,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 1300 6650 1300
 Connection ~ 6550 1300
-Wire Wire Line
-	3450 3000 3400 3000
-Wire Wire Line
-	3400 3000 3400 3100
-Wire Wire Line
-	3400 3400 3450 3400
-Wire Wire Line
-	3450 3300 3400 3300
-Connection ~ 3400 3300
-Wire Wire Line
-	3400 3300 3400 3400
-Wire Wire Line
-	3450 3200 3400 3200
-Connection ~ 3400 3200
-Wire Wire Line
-	3400 3200 3400 3300
-Wire Wire Line
-	3450 3100 3400 3100
-Connection ~ 3400 3100
-Wire Wire Line
-	3400 3100 3400 3200
-$Comp
-L power:+3.3V #PWR0105
-U 1 1 5BB70CB3
-P 3400 3450
-F 0 "#PWR0105" H 3400 3300 50  0001 C CNN
-F 1 "+3.3V" H 3415 3623 50  0000 C CNN
-F 2 "" H 3400 3450 50  0001 C CNN
-F 3 "" H 3400 3450 50  0001 C CNN
-	1    3400 3450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3400 3450 3400 3400
-Connection ~ 3400 3400
 Wire Wire Line
 	7650 3550 7700 3550
 Wire Wire Line
@@ -422,8 +376,6 @@ F 3 "~" H 5300 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 950  5150 950 
-Wire Wire Line
 	5300 950  5300 1000
 Connection ~ 5300 950 
 Wire Wire Line
@@ -434,10 +386,7 @@ Wire Wire Line
 	5300 1300 5800 1300
 Connection ~ 5800 1300
 Wire Wire Line
-	5250 950  5250 650 
-Connection ~ 5250 950 
-Wire Wire Line
-	5250 950  5300 950 
+	5300 950  5300 650 
 $Comp
 L Device:C_Small C10
 U 1 1 5C13858B
@@ -452,7 +401,7 @@ $EndComp
 Wire Wire Line
 	7050 650  7050 900 
 Wire Wire Line
-	5250 650  7050 650 
+	5300 650  7050 650 
 Wire Wire Line
 	7050 900  7450 900 
 Connection ~ 7050 900 
@@ -1107,9 +1056,6 @@ Wire Wire Line
 	5000 1300 4650 1300
 Wire Wire Line
 	4650 1300 4650 950 
-Connection ~ 4650 950 
-Wire Wire Line
-	4650 950  4750 950 
 Wire Wire Line
 	4500 1700 4500 1250
 Wire Wire Line
@@ -1129,34 +1075,6 @@ Wire Notes Line
 	3500 5450 3500 4700
 Text Notes 3500 4650 0    50   ~ 0
 Reset switch
-Wire Wire Line
-	5150 950  5150 1200
-Wire Wire Line
-	5150 1200 5100 1200
-Connection ~ 5150 950 
-Wire Wire Line
-	5150 950  5250 950 
-Wire Wire Line
-	4800 1200 4750 1200
-Wire Wire Line
-	4750 1200 4750 950 
-Connection ~ 4750 950 
-Wire Wire Line
-	4750 950  4850 950 
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5C844774
-P 4950 1200
-F 0 "JP1" H 4950 1350 50  0000 C CNN
-F 1 " " H 4950 1314 50  0000 C CNN
-F 2 "Wire_Connections_Bridges:WireConnection_1.00mmDrill" H 4950 1200 50  0001 C CNN
-F 3 "~" H 4950 1200 50  0001 C CNN
-	1    4950 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5100 1200 5050 1200
-Connection ~ 5100 1200
 $Comp
 L conn:Conn_01x03_Female J1
 U 1 1 5C8757DF
@@ -1271,4 +1189,22 @@ Wire Notes Line
 	2400 5450 2400 4700
 Wire Notes Line
 	1550 4700 1550 5450
+Wire Wire Line
+	5300 950  4650 950 
+Connection ~ 4650 950 
+Text Label 7050 2800 3    50   ~ 0
+USB-
+Text Label 7150 2800 3    50   ~ 0
+USB+
+Text Label 3850 1350 0    50   ~ 0
+USB-
+Text Label 3850 1250 0    50   ~ 0
+USB+
+Wire Wire Line
+	6550 1300 6550 1400
+Wire Wire Line
+	6550 1400 7050 1400
+Wire Wire Line
+	7050 1400 7050 1300
+Connection ~ 7050 1300
 $EndSCHEMATC
