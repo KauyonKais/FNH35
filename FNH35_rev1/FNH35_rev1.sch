@@ -828,62 +828,15 @@ PB14
 Text Label 7550 2800 3    50   ~ 0
 PB13
 Text Label 7600 4400 0    50   ~ 0
-SerComm
-Wire Wire Line
-	6050 2550 6050 3050
-Wire Wire Line
-	6150 3050 6150 2550
-Wire Wire Line
-	6250 2550 6250 3050
-Wire Wire Line
-	6350 3050 6350 2550
-Wire Wire Line
-	6450 2550 6450 3050
-Wire Wire Line
-	6550 3050 6550 2550
-Wire Wire Line
-	6650 2550 6650 3050
-Wire Wire Line
-	6750 3050 6750 2550
-Wire Wire Line
-	6850 2550 6850 3050
-Wire Wire Line
-	6950 3050 6950 2550
-Wire Wire Line
-	7050 2550 7050 3050
-Wire Wire Line
-	7150 3050 7150 2550
-Wire Wire Line
-	7250 2550 7250 3050
-Wire Wire Line
-	7350 3050 7350 2550
-Wire Wire Line
-	7450 2550 7450 3050
+SerConn
 Wire Wire Line
 	7550 2800 7550 2550
-Wire Wire Line
-	7650 2550 7650 2800
 Wire Notes Line
 	8100 2050 8100 2750
 Wire Notes Line
 	5450 2050 5450 2750
 Wire Notes Line
 	5450 2750 8100 2750
-Wire Notes Line
-	8100 2050 5450 2050
-Text Notes 7100 2000 2    50   ~ 0
-Broken out pins
-$Comp
-L conn:Conn_01x21 J2
-U 1 1 5C48F7F8
-P 6850 2350
-F 0 "J2" V 7067 2346 50  0000 C CNN
-F 1 "Conn_01x21" V 6976 2346 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x21_Pitch2.54mm" H 6850 2350 50  0001 C CNN
-F 3 "~" H 6850 2350 50  0001 C CNN
-	1    6850 2350
-	0    -1   -1   0   
-$EndComp
 Text Label 5650 2950 2    50   ~ 0
 ADC
 Wire Wire Line
@@ -963,7 +916,7 @@ U 1 1 5C50F1EB
 P 2450 1750
 F 0 "J3" V 2500 1750 50  0000 R CNN
 F 1 "DX07B024JJ3R1600" V 2350 2100 50  0000 R CNN
-F 2 "DX07B024JJ3R1600:JAE_DX07B024JJ3R1600" H 2450 1750 50  0001 L BNN
+F 2 "butts:JAE_DX07B024JJ3R1600" H 2450 1750 50  0001 L BNN
 F 3 "None" H 2450 1750 50  0001 L BNN
 F 4 "DX07B024JJ3R1600" H 2450 1750 50  0001 L BNN "Field4"
 F 5 "670-2963-1-ND" H 2450 1750 50  0001 L BNN "Field5"
@@ -1007,10 +960,6 @@ Wire Wire Line
 	1750 1250 1700 1250
 Wire Wire Line
 	1750 1350 1700 1350
-Wire Wire Line
-	3150 1350 3550 1350
-Wire Wire Line
-	3150 1250 3550 1250
 Text Label 3550 1450 2    50   ~ 0
 DA-
 Text Label 3550 1150 2    50   ~ 0
@@ -1019,7 +968,6 @@ Wire Wire Line
 	3550 1450 3550 1350
 Wire Wire Line
 	3550 1150 3550 1250
-Connection ~ 3550 1250
 NoConn ~ 3150 1450
 NoConn ~ 1750 1450
 NoConn ~ 1750 1550
@@ -1064,7 +1012,6 @@ Wire Wire Line
 	4600 1700 4600 1350
 Wire Wire Line
 	4600 1350 3550 1350
-Connection ~ 3550 1350
 Wire Notes Line
 	3500 4700 5000 4700
 Wire Notes Line
@@ -1207,4 +1154,63 @@ Wire Wire Line
 Wire Wire Line
 	7050 1400 7050 1300
 Connection ~ 7050 1300
+Wire Wire Line
+	5850 2550 5850 2350
+Wire Wire Line
+	5850 2350 6500 2350
+Wire Wire Line
+	5950 2550 5950 2400
+Wire Wire Line
+	5950 2400 6600 2400
+Wire Wire Line
+	6600 2400 6600 2350
+Wire Wire Line
+	6050 2450 6700 2450
+Wire Wire Line
+	6700 2450 6700 2350
+Wire Wire Line
+	6050 2450 6050 3050
+Wire Wire Line
+	6150 2500 6800 2500
+Wire Wire Line
+	6800 2500 6800 2350
+Wire Wire Line
+	6150 2500 6150 3050
+Wire Wire Line
+	6250 3050 6250 2550
+Wire Wire Line
+	6250 2550 6900 2550
+Wire Wire Line
+	6900 2550 6900 2350
+Wire Wire Line
+	7550 2550 7000 2550
+Wire Wire Line
+	7000 2550 7000 2350
+Wire Wire Line
+	7100 2350 7100 2450
+Wire Wire Line
+	7100 2450 7650 2450
+Wire Wire Line
+	7650 2450 7650 2800
+Wire Wire Line
+	7150 2800 7150 3050
+Wire Wire Line
+	7050 3050 7050 2800
+$Comp
+L conn:Conn_01x08 J2
+U 1 1 5CC1C2E9
+P 6800 2150
+F 0 "J2" V 7017 2096 50  0000 C CNN
+F 1 "Conn_01x08" V 6926 2096 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x08_Pitch1.27mm" H 6800 2150 50  0001 C CNN
+F 3 "~" H 6800 2150 50  0001 C CNN
+	1    6800 2150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 2550 7850 2350
+Wire Wire Line
+	7850 2350 7200 2350
+NoConn ~ 3150 1250
+NoConn ~ 3150 1350
 $EndSCHEMATC
