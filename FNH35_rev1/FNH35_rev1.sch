@@ -42,17 +42,6 @@ F6 "SDO" I R 9900 6000 50
 F7 "CKO" I R 9900 6100 50 
 $EndSheet
 $Comp
-L MCU_ST_STM32F3:STM32F303CCTx U1
-U 1 1 5B9F5D76
-P 6150 3650
-F 0 "U1" V 6150 3550 50  0000 R CNN
-F 1 "STM32F303CCTx" V 6050 3550 50  0000 R CNN
-F 2 "QFP50P900X900X160-48N:QFP50P900X900X160-48N" H 5550 2250 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 6150 3650 50  0001 C CNN
-	1    6150 3650
-	0    -1   -1   0   
-$EndComp
-$Comp
 L keyboard_parts:XTAL_GND X1
 U 1 1 5B9F6109
 P 5300 6350
@@ -706,56 +695,6 @@ Wire Notes Line
 Text Notes 2200 4700 2    50   ~ 0
 Serial Connector \nto left half
 Wire Wire Line
-	5950 4350 5950 5050
-Wire Wire Line
-	6050 5050 6050 4350
-Wire Wire Line
-	6150 4350 6150 5050
-Wire Wire Line
-	6250 5050 6250 4350
-Wire Wire Line
-	6350 5050 6350 4350
-Wire Wire Line
-	6450 4350 6450 5050
-Wire Wire Line
-	6550 5050 6550 4350
-Wire Wire Line
-	6650 4350 6650 5050
-Wire Wire Line
-	6750 5050 6750 4350
-Wire Wire Line
-	6850 4350 6850 4850
-Wire Wire Line
-	6850 4850 7000 4850
-Wire Wire Line
-	7000 4850 7000 6100
-Wire Wire Line
-	7000 6100 7550 6100
-Wire Wire Line
-	7550 5800 7100 5800
-Wire Wire Line
-	7100 5800 7100 4750
-Wire Wire Line
-	7100 4750 6950 4750
-Wire Wire Line
-	6950 4750 6950 4350
-Wire Wire Line
-	7050 4350 7050 4650
-Wire Wire Line
-	7050 4650 7200 4650
-Wire Wire Line
-	7200 4650 7200 5500
-Wire Wire Line
-	7200 5500 7550 5500
-Wire Wire Line
-	7550 5200 7300 5200
-Wire Wire Line
-	7300 5200 7300 4550
-Wire Wire Line
-	7300 4550 7150 4550
-Wire Wire Line
-	7150 4550 7150 4350
-Wire Wire Line
 	7250 4350 7250 4500
 Wire Wire Line
 	7350 4350 7350 4450
@@ -1213,4 +1152,85 @@ Wire Wire Line
 	7850 2350 7200 2350
 NoConn ~ 3150 1250
 NoConn ~ 3150 1350
+$Comp
+L MCU_ST_STM32F3:STM32F303CCTx U1
+U 1 1 5B9F5D76
+P 6150 3650
+F 0 "U1" V 6150 3550 50  0000 R CNN
+F 1 "STM32F303CCTx" V 6050 3550 50  0000 R CNN
+F 2 "QFP50P900X900X160-48N:QFP50P900X900X160-48N" H 5550 2250 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 6150 3650 50  0001 C CNN
+	1    6150 3650
+	0    -1   -1   0   
+$EndComp
+Text Label 7350 3050 1    50   ~ 0
+row3
+Text Label 6250 4350 3    50   ~ 0
+row1
+Text Label 7450 3050 1    50   ~ 0
+row2
+Text Label 6350 4350 3    50   ~ 0
+row0
+Text Label 5950 5000 1    50   ~ 0
+row3
+Text Label 6150 5000 1    50   ~ 0
+row1
+Text Label 6050 5000 1    50   ~ 0
+row2
+Text Label 6250 5000 1    50   ~ 0
+row0
+Wire Wire Line
+	5950 5050 5950 5000
+Wire Wire Line
+	6050 5050 6050 5000
+Wire Wire Line
+	6150 5000 6150 5050
+Wire Wire Line
+	6250 5050 6250 5000
+Text Label 6350 5000 1    50   ~ 0
+col4
+Text Label 6450 5000 1    50   ~ 0
+col3
+Text Label 6550 5000 1    50   ~ 0
+col2
+Text Label 6650 5000 1    50   ~ 0
+col1
+Text Label 6750 5000 1    50   ~ 0
+col0
+Text Label 6450 4350 3    50   ~ 0
+col4
+Text Label 6550 4350 3    50   ~ 0
+col3
+Text Label 6650 4350 3    50   ~ 0
+col2
+Text Label 6750 4350 3    50   ~ 0
+col1
+Text Label 6850 4350 3    50   ~ 0
+col0
+Wire Wire Line
+	6750 5050 6750 5000
+Wire Wire Line
+	6650 5050 6650 5000
+Wire Wire Line
+	6550 5050 6550 5000
+Wire Wire Line
+	6450 5050 6450 5000
+Wire Wire Line
+	6350 5050 6350 5000
+Text Label 7550 5800 2    50   ~ 0
+SDI_Back
+Text Label 7550 5200 2    50   ~ 0
+SDI_Und
+Text Label 7550 6100 2    50   ~ 0
+CKI_Back
+Text Label 7550 5500 2    50   ~ 0
+CKI_Und
+Text Label 6150 4350 3    50   ~ 0
+SDI_Back
+Text Label 7050 4350 3    50   ~ 0
+SDI_Und
+Text Label 6050 4350 3    50   ~ 0
+CKI_Back
+Text Label 6950 4350 3    50   ~ 0
+CKI_Und
 $EndSCHEMATC
