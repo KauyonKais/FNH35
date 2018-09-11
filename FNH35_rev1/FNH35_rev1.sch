@@ -768,14 +768,10 @@ Text Label 7550 2800 3    50   ~ 0
 PB13
 Text Label 7600 4400 0    50   ~ 0
 SerConn
-Wire Wire Line
-	7550 2800 7550 2550
 Wire Notes Line
 	8100 2050 8100 2750
 Wire Notes Line
 	5450 2050 5450 2750
-Wire Notes Line
-	5450 2750 8100 2750
 Text Label 5650 2950 2    50   ~ 0
 ADC
 Wire Wire Line
@@ -1104,34 +1100,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 2400 6600 2350
 Wire Wire Line
-	6050 2450 6700 2450
-Wire Wire Line
-	6700 2450 6700 2350
-Wire Wire Line
-	6050 2450 6050 3050
-Wire Wire Line
-	6150 2500 6800 2500
-Wire Wire Line
-	6800 2500 6800 2350
-Wire Wire Line
-	6150 2500 6150 3050
-Wire Wire Line
-	6250 3050 6250 2550
-Wire Wire Line
-	6250 2550 6900 2550
-Wire Wire Line
-	6900 2550 6900 2350
-Wire Wire Line
-	7550 2550 7000 2550
-Wire Wire Line
-	7000 2550 7000 2350
-Wire Wire Line
-	7100 2350 7100 2450
-Wire Wire Line
-	7100 2450 7650 2450
-Wire Wire Line
-	7650 2450 7650 2800
-Wire Wire Line
 	7150 2800 7150 3050
 Wire Wire Line
 	7050 3050 7050 2800
@@ -1233,4 +1201,24 @@ Text Label 6050 4350 3    50   ~ 0
 CKI_Back
 Text Label 6950 4350 3    50   ~ 0
 CKI_Und
+Text Label 6250 3050 1    50   ~ 0
+PA13
+Text Label 6350 3050 1    50   ~ 0
+PA14
+Text Label 6450 3050 1    50   ~ 0
+PA15
+Text Label 6550 3050 1    50   ~ 0
+PA16
+Text Label 6650 3050 1    50   ~ 0
+PA17
+Text Label 7100 2350 3    50   ~ 0
+PA13
+Text Label 7000 2350 3    50   ~ 0
+PA14
+Text Label 6900 2350 3    50   ~ 0
+PA15
+Text Label 6800 2350 3    50   ~ 0
+PA16
+Text Label 6700 2350 3    50   ~ 0
+PA17
 $EndSCHEMATC
