@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:FNH35_rev1-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L keyboard_parts:KEYSW K40
+L keyboard_parts:KEYSW K201
 U 1 1 5B8A7F7B
 P 3950 2350
-F 0 "K40" H 3900 2350 60  0000 C CNN
+F 0 "K201" H 3900 2350 60  0000 C CNN
 F 1 "KEYSW" H 3950 2250 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 3950 2350 60  0001 C CNN
 F 3 "" H 3950 2350 60  0000 C CNN
@@ -26,10 +25,10 @@ F 3 "" H 3950 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K41
+L keyboard_parts:KEYSW K202
 U 1 1 5B8A8072
 P 3950 2900
-F 0 "K41" H 3900 2900 60  0000 C CNN
+F 0 "K202" H 3900 2900 60  0000 C CNN
 F 1 "KEYSW" H 3950 2800 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 3950 2900 60  0001 C CNN
 F 3 "" H 3950 2900 60  0000 C CNN
@@ -37,10 +36,10 @@ F 3 "" H 3950 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K30
+L keyboard_parts:KEYSW K205
 U 1 1 5B8A80EE
 P 4900 2350
-F 0 "K30" H 4850 2350 60  0000 C CNN
+F 0 "K205" H 4850 2350 60  0000 C CNN
 F 1 "KEYSW" H 4900 2250 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 4900 2350 60  0001 C CNN
 F 3 "" H 4900 2350 60  0000 C CNN
@@ -48,10 +47,10 @@ F 3 "" H 4900 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K31
+L keyboard_parts:KEYSW K206
 U 1 1 5B8A80F4
 P 4900 2900
-F 0 "K31" H 4850 2900 60  0000 C CNN
+F 0 "K206" H 4850 2900 60  0000 C CNN
 F 1 "KEYSW" H 4900 2800 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 4900 2900 60  0001 C CNN
 F 3 "" H 4900 2900 60  0000 C CNN
@@ -59,10 +58,10 @@ F 3 "" H 4900 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K42
+L keyboard_parts:KEYSW K203
 U 1 1 5B8A823C
 P 3950 3450
-F 0 "K42" H 3900 3450 60  0000 C CNN
+F 0 "K203" H 3900 3450 60  0000 C CNN
 F 1 "KEYSW" H 3950 3350 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 3950 3450 60  0001 C CNN
 F 3 "" H 3950 3450 60  0000 C CNN
@@ -70,10 +69,10 @@ F 3 "" H 3950 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K32
+L keyboard_parts:KEYSW K207
 U 1 1 5B8A8242
 P 4900 3450
-F 0 "K32" H 4850 3450 60  0000 C CNN
+F 0 "K207" H 4850 3450 60  0000 C CNN
 F 1 "KEYSW" H 4900 3350 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 4900 3450 60  0001 C CNN
 F 3 "" H 4900 3450 60  0000 C CNN
@@ -81,10 +80,10 @@ F 3 "" H 4900 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K20
+L keyboard_parts:KEYSW K209
 U 1 1 5B8A8446
 P 5850 2350
-F 0 "K20" H 5800 2350 60  0000 C CNN
+F 0 "K209" H 5800 2350 60  0000 C CNN
 F 1 "KEYSW" H 5850 2250 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 5850 2350 60  0001 C CNN
 F 3 "" H 5850 2350 60  0000 C CNN
@@ -92,10 +91,10 @@ F 3 "" H 5850 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K21
+L keyboard_parts:KEYSW K210
 U 1 1 5B8A844C
 P 5850 2900
-F 0 "K21" H 5800 2900 60  0000 C CNN
+F 0 "K210" H 5800 2900 60  0000 C CNN
 F 1 "KEYSW" H 5850 2800 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 5850 2900 60  0001 C CNN
 F 3 "" H 5850 2900 60  0000 C CNN
@@ -103,10 +102,10 @@ F 3 "" H 5850 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K10
+L keyboard_parts:KEYSW K213
 U 1 1 5B8A8452
 P 6800 2350
-F 0 "K10" H 6750 2350 60  0000 C CNN
+F 0 "K213" H 6750 2350 60  0000 C CNN
 F 1 "KEYSW" H 6800 2250 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 6800 2350 60  0001 C CNN
 F 3 "" H 6800 2350 60  0000 C CNN
@@ -114,10 +113,10 @@ F 3 "" H 6800 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K11
+L keyboard_parts:KEYSW K214
 U 1 1 5B8A8458
 P 6800 2900
-F 0 "K11" H 6750 2900 60  0000 C CNN
+F 0 "K214" H 6750 2900 60  0000 C CNN
 F 1 "KEYSW" H 6800 2800 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 6800 2900 60  0001 C CNN
 F 3 "" H 6800 2900 60  0000 C CNN
@@ -125,10 +124,10 @@ F 3 "" H 6800 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K22
+L keyboard_parts:KEYSW K211
 U 1 1 5B8A845E
 P 5850 3450
-F 0 "K22" H 5800 3450 60  0000 C CNN
+F 0 "K211" H 5800 3450 60  0000 C CNN
 F 1 "KEYSW" H 5850 3350 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 5850 3450 60  0001 C CNN
 F 3 "" H 5850 3450 60  0000 C CNN
@@ -136,10 +135,10 @@ F 3 "" H 5850 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K12
+L keyboard_parts:KEYSW K215
 U 1 1 5B8A8464
 P 6800 3450
-F 0 "K12" H 6750 3450 60  0000 C CNN
+F 0 "K215" H 6750 3450 60  0000 C CNN
 F 1 "KEYSW" H 6800 3350 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 6800 3450 60  0001 C CNN
 F 3 "" H 6800 3450 60  0000 C CNN
@@ -147,10 +146,10 @@ F 3 "" H 6800 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K0
+L keyboard_parts:KEYSW K216
 U 1 1 5B8A8FE7
 P 7750 2350
-F 0 "K0" H 7700 2350 60  0000 C CNN
+F 0 "K216" H 7700 2350 60  0000 C CNN
 F 1 "KEYSW" H 7750 2250 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 7750 2350 60  0001 C CNN
 F 3 "" H 7750 2350 60  0000 C CNN
@@ -158,10 +157,10 @@ F 3 "" H 7750 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K1
+L keyboard_parts:KEYSW K217
 U 1 1 5B8A8FED
 P 7750 2900
-F 0 "K1" H 7700 2900 60  0000 C CNN
+F 0 "K217" H 7700 2900 60  0000 C CNN
 F 1 "KEYSW" H 7750 2800 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 7750 2900 60  0001 C CNN
 F 3 "" H 7750 2900 60  0000 C CNN
@@ -169,10 +168,10 @@ F 3 "" H 7750 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K2
+L keyboard_parts:KEYSW K218
 U 1 1 5B8A8FF3
 P 7750 3450
-F 0 "K2" H 7700 3450 60  0000 C CNN
+F 0 "K218" H 7700 3450 60  0000 C CNN
 F 1 "KEYSW" H 7750 3350 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 7750 3450 60  0001 C CNN
 F 3 "" H 7750 3450 60  0000 C CNN
@@ -180,10 +179,10 @@ F 3 "" H 7750 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K43
+L keyboard_parts:KEYSW K204
 U 1 1 5B8A933E
 P 3950 4000
-F 0 "K43" H 3900 4000 60  0000 C CNN
+F 0 "K204" H 3900 4000 60  0000 C CNN
 F 1 "KEYSW" H 3950 3900 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 3950 4000 60  0001 C CNN
 F 3 "" H 3950 4000 60  0000 C CNN
@@ -191,10 +190,10 @@ F 3 "" H 3950 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K33
+L keyboard_parts:KEYSW K208
 U 1 1 5B8A9344
 P 4900 4000
-F 0 "K33" H 4850 4000 60  0000 C CNN
+F 0 "K208" H 4850 4000 60  0000 C CNN
 F 1 "KEYSW" H 4900 3900 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 4900 4000 60  0001 C CNN
 F 3 "" H 4900 4000 60  0000 C CNN
@@ -202,10 +201,10 @@ F 3 "" H 4900 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:KEYSW K23
+L keyboard_parts:KEYSW K212
 U 1 1 5B8A934A
 P 5850 4000
-F 0 "K23" H 5800 4000 60  0000 C CNN
+F 0 "K212" H 5800 4000 60  0000 C CNN
 F 1 "KEYSW" H 5850 3900 60  0001 C CNN
 F 2 "keyswitches:Kailh_socket" H 5850 4000 60  0001 C CNN
 F 3 "" H 5850 4000 60  0000 C CNN
@@ -213,10 +212,10 @@ F 3 "" H 5850 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:D DS40
+L keyboard_parts:D DS201
 U 1 1 5B8A9701
 P 3600 2600
-F 0 "DS40" V 3450 2550 60  0000 C CNN
+F 0 "DS201" V 3450 2550 60  0000 C CNN
 F 1 "D" V 3750 2550 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 3600 2600 60  0001 C CNN
 F 3 "" H 3600 2600 60  0000 C CNN
@@ -224,10 +223,10 @@ F 3 "" H 3600 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS30
+L keyboard_parts:D DS205
 U 1 1 5B8A9858
 P 4550 2600
-F 0 "DS30" V 4400 2550 60  0000 C CNN
+F 0 "DS205" V 4400 2550 60  0000 C CNN
 F 1 "D" V 4700 2550 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 4550 2600 60  0001 C CNN
 F 3 "" H 4550 2600 60  0000 C CNN
@@ -235,10 +234,10 @@ F 3 "" H 4550 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS20
+L keyboard_parts:D DS209
 U 1 1 5B8A98EC
 P 5500 2600
-F 0 "DS20" V 5350 2550 60  0000 C CNN
+F 0 "DS209" V 5350 2550 60  0000 C CNN
 F 1 "D" V 5650 2550 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 5500 2600 60  0001 C CNN
 F 3 "" H 5500 2600 60  0000 C CNN
@@ -246,10 +245,10 @@ F 3 "" H 5500 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS10
+L keyboard_parts:D DS213
 U 1 1 5B8A98F2
 P 6450 2600
-F 0 "DS10" V 6300 2550 60  0000 C CNN
+F 0 "DS213" V 6300 2550 60  0000 C CNN
 F 1 "D" V 6600 2550 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 6450 2600 60  0001 C CNN
 F 3 "" H 6450 2600 60  0000 C CNN
@@ -257,10 +256,10 @@ F 3 "" H 6450 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS0
+L keyboard_parts:D DS216
 U 1 1 5B8A992E
 P 7400 2600
-F 0 "DS0" V 7250 2550 60  0000 C CNN
+F 0 "DS216" V 7250 2550 60  0000 C CNN
 F 1 "D" V 7550 2550 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 7400 2600 60  0001 C CNN
 F 3 "" H 7400 2600 60  0000 C CNN
@@ -268,10 +267,10 @@ F 3 "" H 7400 2600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS41
+L keyboard_parts:D DS202
 U 1 1 5B8A9A0B
 P 3600 3150
-F 0 "DS41" V 3450 3100 60  0000 C CNN
+F 0 "DS202" V 3450 3100 60  0000 C CNN
 F 1 "D" V 3750 3100 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 3600 3150 60  0001 C CNN
 F 3 "" H 3600 3150 60  0000 C CNN
@@ -279,10 +278,10 @@ F 3 "" H 3600 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS31
+L keyboard_parts:D DS206
 U 1 1 5B8A9A11
 P 4550 3150
-F 0 "DS31" V 4400 3100 60  0000 C CNN
+F 0 "DS206" V 4400 3100 60  0000 C CNN
 F 1 "D" V 4700 3100 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 4550 3150 60  0001 C CNN
 F 3 "" H 4550 3150 60  0000 C CNN
@@ -290,10 +289,10 @@ F 3 "" H 4550 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS21
+L keyboard_parts:D DS210
 U 1 1 5B8A9A17
 P 5500 3150
-F 0 "DS21" V 5350 3100 60  0000 C CNN
+F 0 "DS210" V 5350 3100 60  0000 C CNN
 F 1 "D" V 5650 3100 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 5500 3150 60  0001 C CNN
 F 3 "" H 5500 3150 60  0000 C CNN
@@ -301,10 +300,10 @@ F 3 "" H 5500 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS11
+L keyboard_parts:D DS214
 U 1 1 5B8A9A1D
 P 6450 3150
-F 0 "DS11" V 6300 3100 60  0000 C CNN
+F 0 "DS214" V 6300 3100 60  0000 C CNN
 F 1 "D" V 6600 3100 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 6450 3150 60  0001 C CNN
 F 3 "" H 6450 3150 60  0000 C CNN
@@ -312,10 +311,10 @@ F 3 "" H 6450 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS1
+L keyboard_parts:D DS217
 U 1 1 5B8A9A23
 P 7400 3150
-F 0 "DS1" V 7250 3100 60  0000 C CNN
+F 0 "DS217" V 7250 3100 60  0000 C CNN
 F 1 "D" V 7550 3100 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 7400 3150 60  0001 C CNN
 F 3 "" H 7400 3150 60  0000 C CNN
@@ -323,10 +322,10 @@ F 3 "" H 7400 3150 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS43
+L keyboard_parts:D DS204
 U 1 1 5B8A9B60
 P 3600 4250
-F 0 "DS43" V 3450 4200 60  0000 C CNN
+F 0 "DS204" V 3450 4200 60  0000 C CNN
 F 1 "D" V 3750 4200 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 3600 4250 60  0001 C CNN
 F 3 "" H 3600 4250 60  0000 C CNN
@@ -334,10 +333,10 @@ F 3 "" H 3600 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS33
+L keyboard_parts:D DS208
 U 1 1 5B8A9B66
 P 4550 4250
-F 0 "DS33" V 4400 4200 60  0000 C CNN
+F 0 "DS208" V 4400 4200 60  0000 C CNN
 F 1 "D" V 4700 4200 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 4550 4250 60  0001 C CNN
 F 3 "" H 4550 4250 60  0000 C CNN
@@ -345,10 +344,10 @@ F 3 "" H 4550 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS23
+L keyboard_parts:D DS212
 U 1 1 5B8A9B6C
 P 5500 4250
-F 0 "DS23" V 5350 4200 60  0000 C CNN
+F 0 "DS212" V 5350 4200 60  0000 C CNN
 F 1 "D" V 5650 4200 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 5500 4250 60  0001 C CNN
 F 3 "" H 5500 4250 60  0000 C CNN
@@ -356,10 +355,10 @@ F 3 "" H 5500 4250 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS42
+L keyboard_parts:D DS203
 U 1 1 5B8AA12B
 P 3600 3700
-F 0 "DS42" V 3450 3650 60  0000 C CNN
+F 0 "DS203" V 3450 3650 60  0000 C CNN
 F 1 "D" V 3750 3650 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 3600 3700 60  0001 C CNN
 F 3 "" H 3600 3700 60  0000 C CNN
@@ -367,10 +366,10 @@ F 3 "" H 3600 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS32
+L keyboard_parts:D DS207
 U 1 1 5B8AA131
 P 4550 3700
-F 0 "DS32" V 4400 3650 60  0000 C CNN
+F 0 "DS207" V 4400 3650 60  0000 C CNN
 F 1 "D" V 4700 3650 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 4550 3700 60  0001 C CNN
 F 3 "" H 4550 3700 60  0000 C CNN
@@ -378,10 +377,10 @@ F 3 "" H 4550 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS22
+L keyboard_parts:D DS211
 U 1 1 5B8AA137
 P 5500 3700
-F 0 "DS22" V 5350 3650 60  0000 C CNN
+F 0 "DS211" V 5350 3650 60  0000 C CNN
 F 1 "D" V 5650 3650 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 5500 3700 60  0001 C CNN
 F 3 "" H 5500 3700 60  0000 C CNN
@@ -389,10 +388,10 @@ F 3 "" H 5500 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS12
+L keyboard_parts:D DS215
 U 1 1 5B8AA13D
 P 6450 3700
-F 0 "DS12" V 6300 3650 60  0000 C CNN
+F 0 "DS215" V 6300 3650 60  0000 C CNN
 F 1 "D" V 6600 3650 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 6450 3700 60  0001 C CNN
 F 3 "" H 6450 3700 60  0000 C CNN
@@ -400,10 +399,10 @@ F 3 "" H 6450 3700 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L keyboard_parts:D DS2
+L keyboard_parts:D DS218
 U 1 1 5B8AA143
 P 7400 3700
-F 0 "DS2" V 7250 3650 60  0000 C CNN
+F 0 "DS218" V 7250 3650 60  0000 C CNN
 F 1 "D" V 7550 3650 60  0001 C CNN
 F 2 "keyboard_parts:D_SOD123_hand" H 7400 3700 60  0001 C CNN
 F 3 "" H 7400 3700 60  0000 C CNN
