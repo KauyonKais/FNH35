@@ -1,4 +1,4 @@
-update=12.09.2018 11:12:46
+update=13.09.2018 18:15:36
 version=1
 last_client=kicad
 [cvpcb]
@@ -22,7 +22,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=FNH35_rev1_right.net
+LastNetListRead=FNH35_rev1_left.net
 PadDrill=0.762
 PadDrillOvalY=0.762
 PadSizeH=1.524

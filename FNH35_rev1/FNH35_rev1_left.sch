@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:FNH35_rev1_left-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -241,7 +242,7 @@ $EndComp
 Wire Wire Line
 	3950 5050 3900 5050
 Text Label 4750 5050 0    50   ~ 0
-BOOT
+LBOOT
 Wire Wire Line
 	4550 5050 4650 5050
 $Comp
@@ -265,7 +266,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5350 4650 5300
 Text Label 5050 4450 3    50   ~ 0
-BOOT
+LBOOT
 Wire Wire Line
 	5050 4450 5050 4350
 $Comp
@@ -686,17 +687,13 @@ Wire Wire Line
 Wire Wire Line
 	2000 5200 1950 5200
 Text Label 2000 5300 0    50   ~ 0
-SerConn
+LSerConn
 Wire Wire Line
 	2000 5300 1950 5300
 Wire Notes Line
 	2400 4700 1550 4700
 Text Notes 2200 4700 2    50   ~ 0
 Serial Connector \nto left half
-Wire Wire Line
-	7250 4350 7250 4500
-Wire Wire Line
-	7350 4350 7350 4450
 Wire Wire Line
 	7450 4350 7450 4400
 Wire Wire Line
@@ -745,34 +742,10 @@ F 3 "" H 7850 2550 50  0001 C CNN
 	1    7850 2550
 	0    1    1    0   
 $EndComp
-Text Label 7600 4500 0    50   ~ 0
-PB14
-Text Label 7600 4600 0    50   ~ 0
-PB13
-Wire Wire Line
-	7600 4500 7500 4500
-Wire Wire Line
-	7500 4500 7500 4450
-Wire Wire Line
-	7500 4450 7350 4450
-Wire Wire Line
-	7250 4500 7450 4500
-Wire Wire Line
-	7450 4500 7450 4600
-Wire Wire Line
-	7450 4600 7600 4600
-Text Label 7650 2800 3    50   ~ 0
-PB14
-Text Label 7550 2800 3    50   ~ 0
-PB13
 Text Label 7600 4400 0    50   ~ 0
-SerConn
-Wire Notes Line
-	8100 2050 8100 2750
-Wire Notes Line
-	5450 2050 5450 2750
+LSerConn
 Text Label 5650 2950 2    50   ~ 0
-ADC
+LADC
 Wire Wire Line
 	5650 2950 5950 2950
 Wire Wire Line
@@ -822,7 +795,7 @@ F 3 "~" H 3150 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 3250 4850 0    50   ~ 0
-ADC
+LADC
 Wire Wire Line
 	3050 4850 3150 4850
 Wire Wire Line
@@ -887,21 +860,21 @@ Wire Wire Line
 	3150 950  3150 1150
 Connection ~ 3150 950 
 Text Label 1700 1350 2    50   ~ 0
-DA-
+LDA-
 Text Label 1700 1250 2    50   ~ 0
-DA+
+LDA+
 Wire Wire Line
 	1750 1250 1700 1250
 Wire Wire Line
 	1750 1350 1700 1350
-Text Label 3550 1450 2    50   ~ 0
-DA-
-Text Label 3550 1150 2    50   ~ 0
-DA+
+Text Label 3750 2150 2    50   ~ 0
+LDA-
+Text Label 3750 1850 2    50   ~ 0
+LDA+
 Wire Wire Line
-	3550 1450 3550 1350
+	3750 2150 3750 2050
 Wire Wire Line
-	3550 1150 3550 1250
+	3750 1850 3750 1950
 NoConn ~ 3150 1450
 NoConn ~ 1750 1450
 NoConn ~ 1750 1550
@@ -914,38 +887,9 @@ NoConn ~ 1750 1850
 NoConn ~ 1750 1950
 NoConn ~ 3150 1950
 NoConn ~ 3150 1850
-$Comp
-L tm-kicad-lib:PRTR5V0U2X,215 D101
-U 1 1 5C6FB0CE
-P 4500 1900
-F 0 "D101" H 4500 1750 60  0000 L CNN
-F 1 "PRTR5V0U2X,215" H 4200 1700 60  0000 L CNN
-F 2 "tm-kicad-lib:PRTR5V0U2X,215" H 5000 3300 60  0001 C CNN
-F 3 "" H 5000 3300 60  0000 C CNN
-	1    4500 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2000 4100 2550
 Wire Wire Line
 	4100 2550 3300 2550
 Connection ~ 3300 2550
-Wire Wire Line
-	3150 950  4650 950 
-Wire Wire Line
-	5000 1800 5000 1300
-Wire Wire Line
-	5000 1300 4650 1300
-Wire Wire Line
-	4650 1300 4650 950 
-Wire Wire Line
-	4500 1700 4500 1250
-Wire Wire Line
-	3550 1250 4500 1250
-Wire Wire Line
-	4600 1700 4600 1350
-Wire Wire Line
-	4600 1350 3550 1350
 Wire Notes Line
 	3500 4700 5000 4700
 Wire Notes Line
@@ -1070,17 +1014,14 @@ Wire Notes Line
 	2400 5450 2400 4700
 Wire Notes Line
 	1550 4700 1550 5450
-Wire Wire Line
-	5300 950  4650 950 
-Connection ~ 4650 950 
 Text Label 7050 2800 3    50   ~ 0
-USB-
+LUSB-
 Text Label 7150 2800 3    50   ~ 0
-USB+
-Text Label 3850 1350 0    50   ~ 0
-USB-
-Text Label 3850 1250 0    50   ~ 0
-USB+
+LUSB+
+Text Label 5100 2050 0    50   ~ 0
+LUSB-
+Text Label 5100 1950 0    50   ~ 0
+LUSB+
 Wire Wire Line
 	6550 1300 6550 1400
 Wire Wire Line
@@ -1131,21 +1072,21 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	0    -1   -1   0   
 $EndComp
 Text Label 7350 3050 1    50   ~ 0
-row3
+Lrow3
 Text Label 6250 4350 3    50   ~ 0
-row1
+Lrow1
 Text Label 7450 3050 1    50   ~ 0
-row2
+Lrow2
 Text Label 6350 4350 3    50   ~ 0
-row0
+Lrow0
 Text Label 5950 5000 1    50   ~ 0
-row3
+Lrow3
 Text Label 6150 5000 1    50   ~ 0
-row1
+Lrow1
 Text Label 6050 5000 1    50   ~ 0
-row2
+Lrow2
 Text Label 6250 5000 1    50   ~ 0
-row0
+Lrow0
 Wire Wire Line
 	5950 5050 5950 5000
 Wire Wire Line
@@ -1155,25 +1096,25 @@ Wire Wire Line
 Wire Wire Line
 	6250 5050 6250 5000
 Text Label 6350 5000 1    50   ~ 0
-col4
+Lcol4
 Text Label 6450 5000 1    50   ~ 0
-col3
+Lcol3
 Text Label 6550 5000 1    50   ~ 0
-col2
+Lcol2
 Text Label 6650 5000 1    50   ~ 0
-col1
+Lcol1
 Text Label 6750 5000 1    50   ~ 0
-col0
+Lcol0
 Text Label 6450 4350 3    50   ~ 0
-col4
+Lcol4
 Text Label 6550 4350 3    50   ~ 0
-col3
+Lcol3
 Text Label 6650 4350 3    50   ~ 0
-col2
+Lcol2
 Text Label 6750 4350 3    50   ~ 0
-col1
+Lcol1
 Text Label 6850 4350 3    50   ~ 0
-col0
+Lcol0
 Wire Wire Line
 	6750 5050 6750 5000
 Wire Wire Line
@@ -1185,39 +1126,76 @@ Wire Wire Line
 Wire Wire Line
 	6350 5050 6350 5000
 Text Label 7550 5800 2    50   ~ 0
-SDI_Back
+LSDI_Back
 Text Label 7550 5200 2    50   ~ 0
-SDI_Und
+LSDI_Und
 Text Label 7550 6100 2    50   ~ 0
-CKI_Back
+LCKI_Back
 Text Label 7550 5500 2    50   ~ 0
-CKI_Und
+LCKI_Und
 Text Label 6150 4350 3    50   ~ 0
-SDI_Back
+LSDI_Back
 Text Label 7050 4350 3    50   ~ 0
-SDI_Und
+LSDI_Und
 Text Label 6050 4350 3    50   ~ 0
-CKI_Back
+LCKI_Back
 Text Label 6950 4350 3    50   ~ 0
-CKI_Und
+LCKI_Und
 Text Label 6250 3050 1    50   ~ 0
-PA13
+LPA13
 Text Label 6350 3050 1    50   ~ 0
-PA14
+LPA14
 Text Label 6450 3050 1    50   ~ 0
-PA15
+LPA15
 Text Label 6550 3050 1    50   ~ 0
-PA16
+LPA16
 Text Label 6650 3050 1    50   ~ 0
-PA17
+LPA17
 Text Label 7100 2350 3    50   ~ 0
-PA13
+LPA13
 Text Label 7000 2350 3    50   ~ 0
-PA14
+LPA14
 Text Label 6900 2350 3    50   ~ 0
-PA15
+LPA15
 Text Label 6800 2350 3    50   ~ 0
-PA16
+LPA16
 Text Label 6700 2350 3    50   ~ 0
-PA17
+LPA17
+$Comp
+L NUF2221W1T2G:NUF2221W1T2G IC1
+U 1 1 5B9B7B6A
+P 4600 1850
+F 0 "IC1" H 4600 1850 50  0001 L BNN
+F 1 "NUF2221W1T2G" H 4600 1850 50  0001 L BNN
+F 2 "NUF2221W1T2G:SOT-363" H 4600 1850 50  0001 L BNN
+F 3 "Good" H 4600 1850 50  0001 L BNN
+F 4 "SOT-363 ON Semiconductor" H 4600 1850 50  0001 L BNN "Field4"
+F 5 "NUF2221W1T2G" H 4600 1850 50  0001 L BNN "Field5"
+F 6 "0.27 USD" H 4600 1850 50  0001 L BNN "Field6"
+F 7 "NUF2221W1T2G Series 8 V USB Upstream Terminator with ESD Protection - SC-88" H 4600 1850 50  0001 L BNN "Field7"
+F 8 "ON Semiconductor" H 4600 1850 50  0001 L BNN "Field8"
+	1    4600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2250 4100 2250
+Wire Wire Line
+	4100 2250 4100 2550
+Wire Wire Line
+	3150 950  4150 950 
+Wire Wire Line
+	4200 1750 4150 1750
+Wire Wire Line
+	4150 1750 4150 950 
+Connection ~ 4150 950 
+Wire Wire Line
+	4150 950  5300 950 
+Wire Wire Line
+	3750 2050 4200 2050
+Wire Wire Line
+	3750 1950 4200 1950
+Wire Wire Line
+	5000 2050 5100 2050
+Wire Wire Line
+	5100 1950 5000 1950
 $EndSCHEMATC

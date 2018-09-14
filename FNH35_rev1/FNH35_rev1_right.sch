@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:FNH35_rev1-cache
+LIBS:FNH35_rev1_right-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -895,14 +895,14 @@ Wire Wire Line
 	1750 1250 1700 1250
 Wire Wire Line
 	1750 1350 1700 1350
-Text Label 3550 1450 2    50   ~ 0
+Text Label 3800 2200 2    50   ~ 0
 DA-
-Text Label 3550 1150 2    50   ~ 0
+Text Label 3800 1900 2    50   ~ 0
 DA+
 Wire Wire Line
-	3550 1450 3550 1350
+	3800 2200 3800 2100
 Wire Wire Line
-	3550 1150 3550 1250
+	3800 1900 3800 2000
 NoConn ~ 3150 1450
 NoConn ~ 1750 1450
 NoConn ~ 1750 1550
@@ -915,38 +915,9 @@ NoConn ~ 1750 1850
 NoConn ~ 1750 1950
 NoConn ~ 3150 1950
 NoConn ~ 3150 1850
-$Comp
-L tm-kicad-lib:PRTR5V0U2X,215 D1
-U 1 1 5C6FB0CE
-P 4500 1900
-F 0 "D1" H 4500 1750 60  0000 L CNN
-F 1 "PRTR5V0U2X,215" H 4200 1700 60  0000 L CNN
-F 2 "tm-kicad-lib:PRTR5V0U2X,215" H 5000 3300 60  0001 C CNN
-F 3 "" H 5000 3300 60  0000 C CNN
-	1    4500 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4100 2000 4100 2550
 Wire Wire Line
 	4100 2550 3300 2550
 Connection ~ 3300 2550
-Wire Wire Line
-	3150 950  4650 950 
-Wire Wire Line
-	5000 1800 5000 1300
-Wire Wire Line
-	5000 1300 4650 1300
-Wire Wire Line
-	4650 1300 4650 950 
-Wire Wire Line
-	4500 1700 4500 1250
-Wire Wire Line
-	3550 1250 4500 1250
-Wire Wire Line
-	4600 1700 4600 1350
-Wire Wire Line
-	4600 1350 3550 1350
 Wire Notes Line
 	3500 4700 5000 4700
 Wire Notes Line
@@ -1071,16 +1042,13 @@ Wire Notes Line
 	2400 5450 2400 4700
 Wire Notes Line
 	1550 4700 1550 5450
-Wire Wire Line
-	5300 950  4650 950 
-Connection ~ 4650 950 
 Text Label 7050 2800 3    50   ~ 0
 USB-
 Text Label 7150 2800 3    50   ~ 0
 USB+
-Text Label 3850 1350 0    50   ~ 0
+Text Label 4950 2100 0    50   ~ 0
 USB-
-Text Label 3850 1250 0    50   ~ 0
+Text Label 4950 2000 0    50   ~ 0
 USB+
 Wire Wire Line
 	6550 1300 6550 1400
@@ -1221,4 +1189,37 @@ Text Label 6800 2350 3    50   ~ 0
 PA16
 Text Label 6700 2350 3    50   ~ 0
 PA17
+$Comp
+L NUF2221W1T2G:NUF2221W1T2G IC12
+U 1 1 5B9B1DAC
+P 4550 1900
+F 0 "IC12" H 4550 1900 50  0001 L BNN
+F 1 "NUF2221W1T2G" H 4550 1900 50  0001 L BNN
+F 2 "NUF2221W1T2G:SOT-363" H 4550 1900 50  0001 L BNN
+F 3 "Good" H 4550 1900 50  0001 L BNN
+F 4 "SOT-363 ON Semiconductor" H 4550 1900 50  0001 L BNN "Field4"
+F 5 "NUF2221W1T2G" H 4550 1900 50  0001 L BNN "Field5"
+F 6 "0.27 USD" H 4550 1900 50  0001 L BNN "Field6"
+F 7 "NUF2221W1T2G Series 8 V USB Upstream Terminator with ESD Protection - SC-88" H 4550 1900 50  0001 L BNN "Field7"
+F 8 "ON Semiconductor" H 4550 1900 50  0001 L BNN "Field8"
+	1    4550 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2550 4100 2300
+Wire Wire Line
+	4100 2300 4150 2300
+Wire Wire Line
+	3150 950  4100 950 
+Wire Wire Line
+	4150 1800 4100 1800
+Wire Wire Line
+	4100 1800 4100 950 
+Connection ~ 4100 950 
+Wire Wire Line
+	4100 950  5300 950 
+Wire Wire Line
+	3800 2100 4150 2100
+Wire Wire Line
+	4150 2000 3800 2000
 $EndSCHEMATC
