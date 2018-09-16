@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:FNH35_rev1_right-cache
+LIBS:FNH35_rev1_left-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

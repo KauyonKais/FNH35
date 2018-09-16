@@ -721,17 +721,6 @@ F 3 "" H 5950 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GNDD #PWR0127
-U 1 1 5C2CA8D3
-P 7750 2550
-F 0 "#PWR0127" H 7750 2300 50  0001 C CNN
-F 1 "GNDD" H 7754 2395 50  0000 C CNN
-F 2 "" H 7750 2550 50  0001 C CNN
-F 3 "" H 7750 2550 50  0001 C CNN
-	1    7750 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR0128
 U 1 1 5C2CA92E
 P 7850 2550
@@ -764,10 +753,6 @@ Text Label 7550 2800 3    50   ~ 0
 PB13
 Text Label 7600 4400 0    50   ~ 0
 SerConn
-Wire Notes Line
-	8100 2050 8100 2750
-Wire Notes Line
-	5450 2050 5450 2750
 Text Label 5650 2950 2    50   ~ 0
 ADC
 Wire Wire Line
@@ -1046,12 +1031,6 @@ Text Label 4950 2100 0    50   ~ 0
 USB-
 Text Label 4950 2000 0    50   ~ 0
 USB+
-Wire Wire Line
-	6550 1300 6550 1400
-Wire Wire Line
-	6550 1400 7050 1400
-Wire Wire Line
-	7050 1400 7050 1300
 Connection ~ 7050 1300
 Wire Wire Line
 	5850 2550 5850 2350
@@ -1243,4 +1222,23 @@ Connection ~ 7350 6400
 Wire Wire Line
 	6650 6200 7350 6200
 Connection ~ 7350 6200
+$Comp
+L keyboard_parts:SOLDER_JUMPER SJ1
+U 1 1 5BA71D31
+P 6850 1500
+F 0 "SJ1" H 6875 1419 60  0000 C CNN
+F 1 "SOLDER_JUMPER" H 6900 1650 60  0001 C CNN
+F 2 "butts:gndcm" H 6900 1500 60  0001 C CNN
+F 3 "" H 6900 1500 60  0000 C CNN
+	1    6850 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7050 1550 6950 1550
+Wire Wire Line
+	7050 1300 7050 1550
+Wire Wire Line
+	6700 1550 6550 1550
+Wire Wire Line
+	6550 1300 6550 1550
 $EndSCHEMATC
